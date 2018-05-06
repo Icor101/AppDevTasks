@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp">
+
+    <EditText
+        android:id="@+id/Movie"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Movie"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="33dp"
+        tools:text="Movie" />
+
+    <EditText
+        android:id="@+id/Rating"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="Rating"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="101dp"
+        tools:text="Rating" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:text="Proceed"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="414dp"
+        tools:text="Proceed" />
+
+</LinearLayout>
