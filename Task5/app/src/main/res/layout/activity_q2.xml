@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="riya.com.task5.q2">
+
+    <TextView
+        android:id="@+id/q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8sp"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:layout_marginTop="8sp"
+        android:text="Which movie was the fastest to earn $1 billion worldwide?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <Button
+        android:id="@+id/q2a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avengers Infinity War" />
+
+    <Button
+        android:id="@+id/q2b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avatar" />
+
+    <Button
+        android:id="@+id/q2c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titanic" />
+
+    <Button
+        android:id="@+id/q2d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jurassic World" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#FFB74D"
+        android:text="NEXT" />
+
+</LinearLayout>

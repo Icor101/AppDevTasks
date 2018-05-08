@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="riya.com.task5.QuestionThree">
+
+    <TextView
+        android:id="@+id/q3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Who was Linkin Park's lead vocalist?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+    <Button
+        android:id="@+id/q3a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mike Shinoda" />
+
+    <Button
+        android:id="@+id/q3b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dave Farrel" />
+
+    <Button
+        android:id="@+id/q3c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chester Bennington" />
+
+    <Button
+        android:id="@+id/q3d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="M. Shadows" />
+
+    <Button
+        android:id="@+id/Finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="8sp"
+        android:backgroundTint="#FFB74D"
+        android:text="Finish" />
+
+</LinearLayout>

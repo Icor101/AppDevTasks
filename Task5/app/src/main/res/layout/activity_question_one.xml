@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="riya.com.task5.QuestionOne">
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="8sp"
+        android:layout_marginTop="8sp"
+        android:layout_marginBottom="8sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:text="Which is the fastest car in the world?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/q1a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ferrari Enzo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <Button
+        android:id="@+id/q1b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bugatti Veyron" />
+
+    <Button
+        android:id="@+id/q1c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lamborghini Veneno" />
+
+    <Button
+        android:id="@+id/q1d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Koenigsegg Agera RS" />
+
+    <Button
+        android:id="@+id/next"
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10sp"
+        android:backgroundTint="#FFB74D"
+        android:text="NEXT"
+        android:typeface="normal" />
+</LinearLayout>
